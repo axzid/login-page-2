@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poopins', sans-serif;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top right, #3f9bf1, #c7dff5)
+
+}
+.admin {
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 5rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(91, 91, 92, 0.623);
+}
+.admin h2{
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-family: serif;
+    cursor: pointer;
+    
+}
+form p{
+    padding: 0.8rem 0;
+    font-size: 0.8rem;
+}
+form input.form{
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    border: none;
+}
+form input.form:hover{
+    opacity: 0.8;
+}
+form input.remember{
+    margin: 15px 3px;
+    cursor: pointer;
+
+}
+form label{
+    font-size: 0.9rem;
+}
+form a{
+    font-size: 0.9rem;
+    margin-left: 4.5rem;
+}
+button{
+    padding: 0.5rem 2rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+button:hover{
+    opacity: 0.8;
+}
